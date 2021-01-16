@@ -97,4 +97,9 @@ public class BaseUtils extends State{
         return (JavascriptExecutor) driver;
     }
 
+    public void switchToFrame(WebElement locator)
+    {
+        driver.switchTo().frame(locator);
+    }
+
 }
