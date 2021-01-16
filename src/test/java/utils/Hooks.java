@@ -1,6 +1,5 @@
 package utils;
 
-
 import utils.SetUp.drivers.DriverSetUp;
 import utils.helpers.FileHelper;
 import io.cucumber.java.After;
