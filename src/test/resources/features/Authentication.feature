@@ -12,6 +12,6 @@ Feature: To test the authentication API
     Then user should be able to see correct error message with correct error code
 
   Scenario: To verify when the headers are missing
-    Given User calls the login endpoint
+    Given user calls the login endpoint
     And users gets a failure response with missing header
     Then user should be able to see correct error message with correct error code
